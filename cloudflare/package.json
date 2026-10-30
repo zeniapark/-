@@ -1,0 +1,16 @@
+{
+  "name": "hanaro-cs-insight-cloudflare",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev --local",
+    "db:local": "wrangler d1 migrations apply DB --local",
+    "db:remote": "wrangler d1 migrations apply DB --remote",
+    "deploy": "wrangler deploy",
+    "test": "node test/integration.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "^4.46.0"
+  }
+}

@@ -1,5 +1,7 @@
 data/
 backups/
 tools/
+node_modules/
+.wrangler/
 __pycache__/
 *.log
