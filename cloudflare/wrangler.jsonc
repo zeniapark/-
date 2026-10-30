@@ -13,7 +13,7 @@
     {
       "binding": "DB",
       "database_name": "hanaro-cs-insight-db",
-      "database_id": "00000000-0000-0000-0000-000000000000",
+      "database_id": "60d8f1d5-e53a-4052-a26c-e55ec84673e8",
       "migrations_dir": "migrations"
     }
   ]

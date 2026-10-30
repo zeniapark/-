@@ -2,6 +2,10 @@
 
 이 폴더는 회사 PC가 꺼져 있어도 고정 `workers.dev` 주소에서 실행되는 버전입니다. 화면은 상위 `static` 폴더를 그대로 사용하고, 회원·상담 기록은 Cloudflare D1에 누적합니다.
 
+현재 개인 계정 배포 주소: <https://hanaro-cs-insight.zeniapark0907.workers.dev>
+
+현재 `wrangler.jsonc`의 D1 ID는 개인 Cloudflare 계정의 `hanaro-cs-insight-db`를 가리킵니다. 회사 계정으로 이전할 때 회사 계정에서 새 D1을 만들고 이 ID를 교체한 뒤 데이터를 내보내기/가져오기 합니다.
+
 ## 1. 무료 계정 연결
 
 Cloudflare 계정을 만든 뒤 이 폴더에서 실행합니다.
